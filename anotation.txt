@@ -1,0 +1,29 @@
+AULA 1
+
+yarn create react-app moveit --template=typescript = Cria o projeto react com typescript.
+yarn start = Inicializa a aplicação react no browser
+
+Na public deixar apenas o index.html 
+Na src deixar apenas app.tsx, index.tsx e react-app-env.d.ts
+
+Um componentes é um JSX (um XML dentro de uma função javascript).
+
+Os componentes não podem ficar soltos no App (têm que ser envoltos em uma div)
+
+COMPONENTES: forma de isolar um pedaço de código e reutiliza-lo sempre que necessário. (reaproveitamento)
+PROPRIEDADE: forma de passar informações (atributos por exemplo) para nossos componentes.
+ESTADO: Mudança de valor do componente.
+
+Pattern React: Importe seus arquivos CSS dentro do JS e não no HTML
+
+
+
+AULA 2
+
+yarn create next-app moveit-next = Migrando projeto para Next.JS
+
+Na pasta "pages" deixar apenas _app.js (Partes comuns do projeto) e index.js (página inicial)
+
+Instalar o typescript no projeto: yarn add typescript @types/react @types/react-dom @types/node -D
+
+Após a instalação acima, utilize para iniciar: yarn dev
