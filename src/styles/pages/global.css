@@ -31,8 +31,8 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--text);
+  background: #161c30;
+  color: var(--white);
 }
 
 body,
